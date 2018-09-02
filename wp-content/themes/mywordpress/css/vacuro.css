@@ -1,0 +1,725 @@
+.mybrand{
+    padding-left: 15px;
+}
+.arrow-down {
+  position:absolute;
+  right:50%;
+  transform: translateX(50%);	 
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-width: 10px 10px 0;
+  border-top: 10px solid gray;
+}
+@media (max-width: 767px){
+	.mybrand img{
+		width:125px;
+	}
+}
+.flag{
+	float:right;
+    position:relative;
+    top:34px;
+    right:4px;
+}
+.flag img{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: .2;
+}
+.flag img:hover{
+	opacity: 1;
+}
+.border{
+	border-top: 4px solid #7DA817; 
+	margin-bottom: -10px;
+}
+.sitelogo{
+	    padding: 20px 0 20px;
+}
+/*navbar Section*/
+.navigator .navbar-collapse{
+	text-align: center;
+}
+.navigator .navbar{
+	background-color: white;
+	border-bottom: none;
+
+}
+.navigator .menu{
+	padding-left:0px;
+}
+.navigator .navbar li {
+	
+	color: #555;
+   
+    border-bottom: 4px solid transparent;
+    float: left;
+    padding:15px;
+    list-style-type: none; 
+}
+
+.navigator .navbar li a{
+	font-size:11px;
+	color: #555;
+    font-family: 'PT Sans',sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.navigator .navbar li a:hover{
+	color:#7DA817;
+    text-decoration: none;
+}
+
+.navigator .nav li:hover{
+	color:#7DA817;
+	border-bottom: 4px solid #7DA817;
+}
+.navigator nav{
+	padding-bottom:0px; 
+}
+
+.navigator .navbar{
+	background-color: white;
+	border-bottom: 8px solid transparent;
+ border-image: url("../images/skelatal_weave.png") 5 round;
+}
+
+/*navbar Section End*/
+
+.banner{
+	margin-top: -28px;
+    position: relative;
+}
+
+.banner img{
+	width: 100%;
+	height:auto;
+	border:0px;
+	vertical-align: middle;
+
+}
+/*Warning Section*/
+.triangle{
+	vertical-align: middle;
+}
+@media only screen and (max-width: 792px) {
+    .warning .triangle {
+            width: 100px;
+            margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 792px){
+	.warning .para-right{
+		padding-left: 0px;
+
+	}
+}
+.warning .center{
+	text-align:center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #555555;
+	margin-bottom: 15px;
+}
+
+.warning .center-bottom{
+	text-align:center;
+	font-size: 18px;
+	color: #555555;
+    margin-top: 10px;
+}
+.warning{
+	padding-top:30px;
+	padding-bottom: 35px
+}
+.para-right{
+	padding-left: 30px;
+}
+
+.greentext{
+	color:#7DA817;
+	font-weight:bold;
+	font-family: Arial,sans-sarif;
+}
+
+.para{
+	color: #787878;
+}
+
+.para h4{
+	color: #555555;
+
+}
+
+.shorttext{
+	color:#7DA817;
+	font-weight: 700;
+	padding: 0 2px;
+}
+
+
+
+/*warning*/
+
+/*all joint code*/
+/*about us section*/
+.aboutus{
+	background: #fff;
+    padding: 10px 0;
+    margin-bottom: 60px;
+}
+
+.aboutus p{
+	font-size: 14px;
+	color: #555;
+	line-height: 22px;
+}
+
+.aboutus h4{
+	color:#555;
+	line-height: 
+}
+
+
+
+/*about us section end*/
+
+/*kontact section*/
+/*map section*/
+#mapsection{
+	width:100%;
+	height:308px;
+	border-bottom: 8px solid transparent;
+    border-image: url("../images/skelatal_weave.png") 5 round;
+    margin-top:-20px;
+	/*border-top: 8px solid transparent;*/
+}
+
+.contact{
+    padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.contact h4{
+	    font-weight: 400;
+	    color:#555;
+	    font-size: 18px;
+	}
+
+.contact p{
+	font-size: 14px;
+	margin-bottom: 0px;
+	color: #787878;
+}
+
+.contact .myform input{
+	padding: 4px 10px;
+	border-radius: 4px;
+	border:1px solid #cccccc;
+	width:206px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	display: block;
+	font-family: Arial,sans-sarif;
+    background-color: #f9f9f9;
+}
+
+.contact .myform label{
+	color: #787878;
+	font-size: 14px;
+	display: block;
+
+}
+
+.contact .myform .error{
+	    color: #B94A48;
+    font-size: 12px;
+    font-family: Arial,sans-serif;
+}
+
+
+/*bottom form*/
+.bottom .error{
+	    color: #B94A48;
+    font-size: 12px;
+    font-family: Arial,sans-serif;
+}
+
+.contact .myform .inputspecial{
+	padding-top: 4px ;
+	padding-bottom: 20px;
+    width:100%;
+    height:130px;
+    padding: 6px 10px;
+    display: block;
+    resize: none;
+    border-radius: 4px;
+    border:1px solid #cccccc;
+    font-family: Arial,sans-sarif;
+    background-color: #f9f9f9;
+}
+
+.contact .myform button{
+	font-size: 14px;
+	color:#444444;
+	padding: 2px 11px;
+    background: #efefef;
+    text-align: center;
+    border-style: solid;
+
+}
+.contact .addresse li{
+	list-style-type: none;
+	font-size: 14px;
+	color:#787878;
+}
+
+/*map section ends*/
+
+
+
+
+/*kontact section end*/
+/*warning*/
+
+
+/*produckter*/
+
+/*overlay part*/
+
+.productwrapper .dh-overlay {
+  background: rgba(52,73,94,.65);
+  width: 100%;
+  height: 165px;
+  text-align: center;
+  line-height: 300px;
+  color: #fff;
+  overflow: hidden;
+}
+/*overlay part*/
+.productwrapper{
+	
+	padding-bottom: 60px;
+}
+
+.productwrapper .img-wrap1{
+	    height: 165px;
+	    /*background-image: url(../images/Faresedler.jpg); */
+	    background-size: cover;
+	    background-position: center center;
+	    
+	   
+}
+
+
+ 
+.productwrapper .img-wrap2{
+	    height: 165px;
+	   /* background-image: url(../images/Transportdokumenter.jpg); */
+	    background-size: cover;
+	    background-position: center center;
+}
+
+
+
+
+
+.productwrapper .img-wrap3{
+	    height: 165px;
+	    background-image: url(../images/limefire.jpg); 
+	    background-size: cover;
+	    background-position: center center;
+}
+
+
+
+.productwrapper .column h4 a{
+	color: #7DA817;
+	font-size: 16px;
+}
+
+.productwrapper .column h4 a:hover{
+	color: #333;
+	text-decoration: none;
+	
+}
+
+.productwrapper .column{
+	padding-top:15px;
+}
+
+
+.productwrapper .column h4 {
+	color: #7DA817;
+	font-size: 16px;
+	border-bottom: 1px dashed #efefef;
+	padding-bottom: 10px;
+    margin-top:30px; 
+}
+
+.productwrapper .column p{
+ color: #787878;
+ font-size: 14px;
+ line-height: 20px;
+}
+
+
+
+/*produckter end*/
+
+
+/*slide*/
+
+.slide{
+	
+	width:100%;
+	background-color: white;
+	margin-top: -20px;
+}
+
+.slide .carousel .carousel-control{
+	background-image: none; 
+	opacity: 1;
+}
+
+
+
+
+.slide .carousel-inner .slideimage .caption{
+	position: absolute;
+	top:10%;
+	left:10%;
+}
+.slide .carousel-inner .slideimage .caption h2{
+	color: #7DA817;
+	font-size: 65px;
+	    font-weight: 500;
+}
+
+
+.slide .carousel-inner .slideimage{
+	/*background-image: url("../images/truck2.jpg");*/
+	background-size: cover;
+	background-position: center center;
+	height:375px;
+	width:100%;
+}
+
+.slide .leftarrow{
+	position:absolute;
+	width:30px;
+	height:30px;
+	background-color: #7DA817;
+	top:50%;
+	left:0;
+	transform: translateY(-50%);
+	color: white;
+	
+}
+
+.slide .rightarrow{
+	position:absolute;
+	top:50%;
+	right:0;
+	width:30px;
+	height:30px;
+	background-color: #7DA817;
+	color: green;
+    opacity: 1;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.slide .carousel-indicators li{
+	height: 14px;
+    width: 14px;
+    border: 2px solid #7DA817;
+    background: #7DA817;
+    margin: 3px;
+}
+.slide .carousel-indicators .active {
+	 border: 2px solid #7DA817;
+	 background-color: transparent;
+}
+.slide {
+	padding-bottom: 20px;
+}
+
+/* Rareranser */
+/*slide*/
+
+/*main content*/
+.main-content .container{
+ border-top: 1px solid #E7E7E7;
+ padding-top: 60px;
+ border-bottom:1px solid #E7E7E7;
+ padding-bottom: 40px;
+}
+
+.main-content h4{
+	font-size: 18px;
+	font-family: PT Sans,Arial,sans-serif;
+	color: #555;
+}
+.main-content p{
+	font-size: 14px;
+	color: #787878;
+}
+.main-content{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	
+}
+.main-content .imagebrand{
+	
+	width:263px;
+	height: auto;
+	padding: 10px;
+	
+	/*display: block*/;
+}
+
+.main-content .col-lg-3 .smallarrows{
+	position:absolute;
+    
+    left:80%;
+    color:gray;
+}
+
+.main-content .col-lg-3 .smallarrows .rightangle:hover{
+	color: black;
+}
+.main-content .col-lg-3 .smallarrows .leftangle:hover{
+	color: black;
+}
+
+.main-content .col-lg-9 .brands div{
+	position: relative;
+	overflow: hidden;
+}
+.main-content .col-lg-9 .brands div:after{
+	content: "vacuro";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #7DA817;
+    transition: all .2s linear;
+    transform: translateX(-100%);
+    color:white;
+    padding: 5px 10px;
+}
+.main-content .col-lg-9 .brands div.slick-slide:hover:after{
+    transform: translateX(0);
+
+}
+.main-content .col-lg-3 .smallarrows .rightangle{
+	padding-right: 5px;
+}
+/*all joint code*/
+
+/*bottom Section*/
+.bottom .usefulllinks{
+	padding-left: 0px;
+}
+
+.usefulllinks li{
+	padding: 15px 0px;
+	list-style-type: none;
+
+}
+
+.usefulllinks li img{
+	width:20px;
+	padding-right: 5px;
+}
+
+
+.usefulllinks li a{
+	color:#7DA817;
+	text-decoration: none;
+}
+
+.usefulllinks li a:hover{
+	color:black;
+}
+
+
+.bottom {
+	background-image: url("../images/skelatal_weave.png");
+	font-size: 12px;
+	color:#787878;
+	border-top:1px solid  #E7E7E7;
+	padding-top: 40px;
+	padding-bottom: 50px
+}
+
+.bottom #animate{
+	padding-bottom:0px;
+
+}
+
+
+
+
+.bottom .addre .textwidget p{
+	margin-bottom: 0px;
+}
+
+.bottom h4{
+	padding-bottom: 25px;
+	color:#7DA817;
+	font-size: 16px;
+}
+
+
+.bottom input{
+	padding: 4px 10px;
+	border-radius: 4px;
+	border:1px solid #cccccc;
+	width:206px;
+	height: 30px;
+	margin-top: 10px;
+	font-size: 12px;
+	display: block;
+	font-family: Arial,sans-sarif;
+}
+
+.bottom label{
+	display: block;
+}
+
+@media (max-width: 992px){
+	.bottom input{
+		width: 156px;
+
+	}
+}
+@media (max-width: 992px){
+	.bottom textarea{
+		width: 156px;
+
+	}
+}
+
+@media (max-width: 767px){
+	.bottom input{
+		width: 206px;
+
+	}
+}
+@media (max-width: 767px){
+	.bottom textarea{
+		width: 206px;
+
+	}
+}
+
+
+
+.inputspecial{
+	padding-top: 4px ;
+	padding-bottom: 20px;
+    width:206px;
+    padding: 6px 10px;
+    background-color: #ffffff;
+    border:1px solid #cccccc;
+    border-radius: 4px;
+    resize: none;
+   
+    margin-top: 10px;
+}
+
+
+.bottom button{
+	font-size: 14px;
+	color:#444444;
+	    padding: 2px 11px;
+    background: #efefef;
+        text-align: center;
+        border-style: solid;
+        margin-top: 8px;
+}
+
+.addresse  li{
+	list-style-type: none;
+    
+}
+
+.addresse{
+	padding-left: 0px;
+}
+
+@media (max-width: 768px){
+	.bottom .addre{
+		margin-top: 50px;
+	}
+}
+
+
+
+/*bottom section ends*/
+
+
+#right{
+	float:right;
+}
+
+.bottom-footer .navbar{
+	margin-bottom: 0px;
+	background-color: #B6B6B6;
+}
+
+
+.bottom-footer .navbar li a{
+	    color: #FFF;
+	    font-family: PT Sans;
+	    font-size: 13px;
+	    font-weight: 400;
+	    text-shadow: 1px 1px rgba(0,0,0,.2);
+	    color: #FFF;
+	}
+
+.bottom-footer .navbar li{
+	padding-left: 0px;
+	padding-right: 0px;
+    
+}
+
+/*newly added*/
+
+.bottom-footer .navbar-default .navbar-nav>li>a{
+	color:white;
+}
+
+
+/*newly added*/
+
+.bottom-footer .bottom-arrow{
+	bottom: 5px;
+    right: 10px;
+    position: fixed;
+   
+}
+
+.bottom-footer .bottom-arrow .arro{
+ width:40px;
+ height:40px;
+ background: #7F7F7F;
+ border-radius: 50%;
+ color: #ffffff;
+ text-align: center;
+ 
+ padding-top:5px; 
+ display:block;
+ font-size: 18px;
+}
+

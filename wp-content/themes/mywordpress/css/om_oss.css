@@ -1,0 +1,279 @@
+.mybrand{
+    padding-left: 15px;
+
+}
+.arrow-down {
+  position:absolute;
+  right:50%;
+  transform: translateX(50%);	 
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-width: 10px 10px 0;
+  border-top: 10px solid gray;
+}
+@media (max-width: 767px){
+	.mybrand img{
+		width:125px;
+	}
+}
+.flag{
+	float:right;
+    position:relative;
+    top:34px;
+    right:4px;
+}
+.flag img{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: .2;
+}
+.flag img:hover{
+	opacity: 1;
+}
+.border{
+	border-top: 4px solid #7DA817; 
+	margin-bottom: -10px;
+}
+.sitelogo{
+	    padding: 20px 0 20px;
+}
+
+/*navbar Section*/
+.navigator .navbar-collapse{
+	text-align: center;
+}
+
+.navigator .navbar{
+	background-color: white;
+	border-bottom: 8px solid transparent;
+ border-image: url("../images/skelatal_weave.png") 5 round;
+}
+.navigator .menu{
+	padding-left:0px;
+}
+.navigator .navbar li {	
+color: #555;
+border-bottom: 4px solid transparent;    
+}
+.navigator .navbar li a{
+	font-size:12px;
+	color: #555;
+    font-family: 'PT Sans',sans-serif;
+    padding-bottom: 10px;
+}
+.navigator .navbar li a:hover{
+	color:#7DA817;
+    
+}
+
+.navigator .nav li:hover{
+	color:#7DA817;
+	border-bottom: 4px solid #7DA817;
+}
+
+
+.navigator nav{
+	padding-bottom:0px; 
+}
+
+/*about us section*/
+.aboutus{
+	background: #fff;
+    padding: 10px 0;
+    margin-bottom: 60px;
+}
+
+.aboutus p{
+	font-size: 14px;
+	color: #555;
+	line-height: 22px;
+}
+
+.aboutus h4{
+	color:#555;
+	line-height: 
+}
+
+
+
+/*about us section end*/
+
+/*bottom Section*/
+.bottom .usefulllinks{
+	padding-left: 0px;
+}
+
+.usefulllinks li{
+	padding: 15px 0px;
+	list-style-type: none;
+
+}
+
+.usefulllinks li img{
+	width:20px;
+	padding-right: 5px;
+}
+
+.usefulllinks li a{
+	color:#7DA817;
+	text-decoration: none;
+}
+
+.usefulllinks li a:hover{
+	color:black;
+}
+
+
+.bottom {
+	background-image: url("../images/skelatal_weave.png");
+	font-size: 12px;
+	color:#787878;
+	border-top:1px solid  #E7E7E7;
+	padding-top: 40px;
+	padding-bottom: 50px
+}
+
+.bottom #animate{
+	padding-bottom:0px;
+
+}
+
+
+
+.bottom h4{
+	padding-bottom: 25px;
+	color:#7DA817;
+	font-size: 16px;
+}
+
+
+.bottom input{
+	padding: 4px 10px;
+	border-radius: 4px;
+	border:1px solid #cccccc;
+	width:206px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	display: block;
+	font-family: Arial,sans-sarif;
+}
+
+@media (max-width: 992px){
+	.bottom input{
+		width: 156px;
+
+	}
+}
+@media (max-width: 992px){
+	.bottom textarea{
+		width: 156px;
+
+	}
+}
+
+@media (max-width: 767px){
+	.bottom input{
+		width: 206px;
+
+	}
+}
+@media (max-width: 767px){
+	.bottom textarea{
+		width: 206px;
+
+	}
+}
+
+
+
+.inputspecial{
+	padding-top: 4px ;
+	padding-bottom: 20px;
+    width:206px;
+    padding: 6px 10px;
+    background-color: #ffffff;
+    border:1px solid #cccccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 8px;
+
+}
+
+
+.bottom button{
+	font-size: 14px;
+	color:#444444;
+	    padding: 2px 11px;
+    background: #efefef;
+        text-align: center;
+        border-style: solid;
+}
+
+.addresse  li{
+	list-style-type: none;
+    
+}
+
+.addresse{
+	padding-left: 0px;
+}
+
+@media (max-width: 768px){
+	.bottom .addre{
+		margin-top: 50px;
+	}
+}
+
+
+
+/*bottom section ends*/
+
+
+#right{
+	float:right;
+}
+
+.bottom-footer .navbar{
+	margin-bottom: 0px;
+	background-color: #B6B6B6;
+}
+
+
+.bottom-footer .navbar li a{
+	    color: #FFF;
+	    font-family: PT Sans;
+	    font-size: 13px;
+	    font-weight: 400;
+	    text-shadow: 1px 1px rgba(0,0,0,.2);
+	    color: #FFF;
+	}
+
+.bottom-footer .navbar li{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.bottom-footer .bottom-arrow{
+	bottom: 5px;
+    right: 10px;
+    position: fixed;
+   
+}
+
+.bottom-footer .bottom-arrow .arro{
+ width:40px;
+ height:40px;
+ background: #7F7F7F;
+ border-radius: 50%;
+ color: #ffffff;
+ text-align: center;
+ 
+ padding-top:5px; 
+ display:block;
+ font-size: 18px;
+}
